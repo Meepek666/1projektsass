@@ -171,8 +171,6 @@
     #counters-services {
     background-color: $color-background;
     padding: ($baseline * 4) $padding-none $baseline;
-    // dodanie efektu przejścia ikon po najechaniu na nie kursorem - powinny obracać się o -45deg, efekt przejścia płynny trwający 0.5s
-    transform:rotate(45deg);
     transition: background-color 0,5s;
 
 
@@ -183,7 +181,10 @@
             border-radius: 100%;
             line-height: $base-font-size * 4.5;
             border: 2px solid $color-primary;
+            // dodanie efektu przejścia ikon po najechaniu na nie kursorem - powinny obracać się o -45deg, efekt przejścia płynny trwający 0.5s
+            transform: rotate(45deg);
         }
+        .icon-services:hover
 
 
         .counters-box {
