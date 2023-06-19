@@ -11771,14 +11771,13 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   color: #a5e200;
   padding: 0 15px;
 }
-.t108-one-page #portfolio .portfolio-box:hover .portfolio-box-caption {
+.t108-one-page #portfolio .portfolio-box:hover .portfolio-box-cption {
   opacity: 1;
   transition-duration: 4s;
 }
 .t108-one-page #counters-services {
   background-color: #f7f7f7;
   padding: 96px 0 24px;
-  transform: rotate(45deg);
   transition: background-color 0, 5s;
 }
 .t108-one-page #counters-services .icon-services {
@@ -11788,6 +11787,10 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   border-radius: 100%;
   line-height: 72px;
   border: 2px solid #a5e200;
+  transition: all;
+}
+.t108-one-page #counters-services .icon-services:hover {
+  transform: rotate(45deg);
 }
 .t108-one-page #counters-services .counters-box {
   margin: 0 auto 72px;

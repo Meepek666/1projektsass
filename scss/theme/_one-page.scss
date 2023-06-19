@@ -181,10 +181,13 @@
             border-radius: 100%;
             line-height: $base-font-size * 4.5;
             border: 2px solid $color-primary;
+            transition: all;
             // dodanie efektu przejścia ikon po najechaniu na nie kursorem - powinny obracać się o -45deg, efekt przejścia płynny trwający 0.5s
-            transform: rotate(45deg);
         }
-        .icon-services:hover
+
+        .icon-services:hover {
+            transform: rotate(45deg);
+          }
 
 
         .counters-box {
